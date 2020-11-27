@@ -52,6 +52,8 @@
     <Compile Include="Bai21_calSalary.cs" />
     <Compile Include="Bai22_calMonth.cs" />
     <Compile Include="Bai23_printMenu.cs" />
+    <Compile Include="Bai24_Queue.cs" />
+    <Compile Include="Bai25_Stack.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\Product.cs" />

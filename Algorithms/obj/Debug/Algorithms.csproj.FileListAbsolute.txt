@@ -5,3 +5,10 @@ F:\DigiDinos\OOP\Algorithms\Algorithms\obj\Debug\Algorithms.csprojAssemblyRefere
 F:\DigiDinos\OOP\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
 F:\DigiDinos\OOP\Algorithms\Algorithms\obj\Debug\Algorithms.exe
 F:\DigiDinos\OOP\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+F:\DigiDinos\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+F:\DigiDinos\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+F:\DigiDinos\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+F:\DigiDinos\Algorithms\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
+F:\DigiDinos\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+F:\DigiDinos\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+F:\DigiDinos\Algorithms\Algorithms\obj\Debug\Algorithms.pdb

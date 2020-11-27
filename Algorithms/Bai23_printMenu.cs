@@ -15,17 +15,17 @@ namespace Algorithms
             {
                 if (menus[i].parentId == 0)
                 {
-                    Console.WriteLine(menus[i].title);
+                    Console.WriteLine(" " + menus[i].title);
                     for (int j = 0; j < menus.Count(); j++)
                     {
                         if (menus[j].parentId == menus[i].id)
                         {
-                            Console.WriteLine("--" + menus[j].title);
+                            Console.WriteLine(" --" + menus[j].title);
                             for (int k = 0; k < menus.Count(); k++)
                             {
                                 if (menus[k].parentId == menus[j].id)
                                 {
-                                    Console.WriteLine("----" + menus[k].title);
+                                    Console.WriteLine(" ----" + menus[k].title);
                                 }
                             }
                         }

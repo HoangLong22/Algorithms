@@ -16,6 +16,8 @@ namespace Algorithms
         }
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.Unicode;
+
             List<Product> products = new List<Product>();
             products.Add(new Product() { name = "CPU", price = 750, quality = 10, categoryId = 1});
             products.Add(new Product() { name = "RAM", price = 50, quality = 2, categoryId = 2 });
@@ -94,6 +96,15 @@ namespace Algorithms
             Console.WriteLine("-------------------------------------------");
             Console.WriteLine("Menu:");
             Bai23_printMenu.printMenu(menu);
+
+
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("Queue:");
+            Bai24_Queue.testQueue();
+
+            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("Stack:");
+            Bai25_Stack.testStack();
 
             Console.ReadKey();
         }
