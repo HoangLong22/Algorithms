@@ -93,17 +93,19 @@ namespace Algorithms
             Console.WriteLine(Bai22_calMonth.calMonth(1000, 2));
             Console.WriteLine(Bai22_calMonth.CalMonth_recurse(1000, 2));
 
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------\n");
             Console.WriteLine("Menu:");
             Bai23_printMenu.printMenu(menu);
 
 
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------\n");
             Console.WriteLine("Queue:");
+            Console.WriteLine("Hàng đợi vào lần lượt từ A->B->C");
             Bai24_Queue.testQueue();
 
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------------\n");
             Console.WriteLine("Stack:");
+            Console.WriteLine("Hàng đợi vào lần lượt từ A->B->C");
             Bai25_Stack.testStack();
 
             Console.ReadKey();
