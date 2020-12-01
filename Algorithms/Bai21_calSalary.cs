@@ -24,7 +24,7 @@ namespace Algorithms
             {
                 return salary;
             }
-            return calSalary_recursive(salary += salary * 0.1, n - 1);
+            return calSalary_recursive(salary, n-1) + calSalary_recursive(salary, n-1)*0.1;
         }
     }
 }

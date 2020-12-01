@@ -24,20 +24,22 @@ namespace Algorithms
             }
             return month;
         }
+
+        //De quy
         private static int Recurse(double taget, int month, double money, int rate)
         {
-            if(taget >= money * 2)
+            double x = money + money * rate / 100;
+            if(x >= taget)
             {
                 return month;
             }
-            month++;
-            return Recurse(taget += taget * rate / 100, month, money, rate);
+            return Recurse(x, rate, taget, month + 1);
         }
         public static int CalMonth_recurse(double money, int rate)
         {
-            if (money == 0 || rate < 1)           
+            if (money <= 0 || rate == 1 || rate <= 0)           
                 return 0;
-            double taget = money + money * rate / 100;
+            double taget = 2 * money;
             return Recurse(taget, 1, money, rate);
         }
     }

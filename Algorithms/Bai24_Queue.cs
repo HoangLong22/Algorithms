@@ -11,7 +11,7 @@ namespace Algorithms
       public static void testQueue()
         {
 
-            Queue<string> hoso_canxuly = new Queue<string>();
+            var hoso_canxuly = new Queue<String>();
 
             hoso_canxuly.Enqueue("Hồ sơ A");
             hoso_canxuly.Enqueue("Hồ sơ B"); 
